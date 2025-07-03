@@ -1,0 +1,11 @@
+{
+  "name": "phone-crash-v3",
+  "version": "1.0.0",
+  "description": "A simple web page that simulates a phone crash",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
