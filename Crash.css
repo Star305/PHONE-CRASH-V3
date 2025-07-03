@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#number {
+    width: 50%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#crash-btn {
+    width: 20%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Fast background color changes */
+body {
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: #ff69b4; /* Pink */
+        transform: translateZ(10px);
+    }
+    20% {
+        background-color: #33cc33; /* Green */
+        transform: translateZ(20px);
+    }
+    40% {
+        background-color: #6666ff; /* Blue */
+        transform: translateZ(30px);
+    }
+    60% {
+        background-color: #ff9966; /* Orange */
+        transform: translateZ(40px);
+    }
+    80% {
+        background-color: #cc33cc; /* Purple */
+        transform: translateZ(50px);
+    }
+    100% {
+        background-color: #ff69b4; /* Pink */
+        transform: translateZ(10px);
+    }
+}
+
